@@ -57,6 +57,7 @@ pip install -r requirements.txt
 Make sure MySQL is running and create a database:
 
 CREATE DATABASE productdb;
+Add your db creds in .env file
 
 Running the Server
 uvicorn main:app --reload
